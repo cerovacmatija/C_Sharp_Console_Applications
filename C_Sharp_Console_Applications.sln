@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{0B6654FE-CEDC-4C37-8C4C-98B2AEB1F3D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turn_Based_Combat_Game", "Turn_Based_Combat_Game\Turn_Based_Combat_Game.csproj", "{957D6F19-9EA3-411E-8671-2437879B6C4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0B6654FE-CEDC-4C37-8C4C-98B2AEB1F3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B6654FE-CEDC-4C37-8C4C-98B2AEB1F3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B6654FE-CEDC-4C37-8C4C-98B2AEB1F3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957D6F19-9EA3-411E-8671-2437879B6C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957D6F19-9EA3-411E-8671-2437879B6C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957D6F19-9EA3-411E-8671-2437879B6C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957D6F19-9EA3-411E-8671-2437879B6C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
