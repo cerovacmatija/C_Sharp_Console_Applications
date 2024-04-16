@@ -14,30 +14,33 @@ do
     number2 = Convert.ToInt32(Console.ReadLine());
 
     Console.WriteLine("What type of operation would you like to do?");
-    Console.WriteLine("a for addition, s for subtraction, m for multiplication, d for division or type e to exit the program.");
+    Console.WriteLine("Type a for addition, s for subtraction, m for multiplication or d for division.");
 
-    operation = Console.ReadLine();
+    do
+    {
+        operation = Console.ReadLine();
 
-    if (operation == "a")
-    {
-        result = number1 + number2;
-    }
-    else if (operation == "s")
-    {
-        result = number1 - number2;
-    }
-    else if (operation == "m")
-    {
-        result = number1 * number2;
-    }
-    else if (operation == "d")
-    {
-        result = number1 / number2;
-    }
-    else
-    {
-        Console.WriteLine("Wrong input...");
-    }
+        if (operation == "a")
+        {
+            result = number1 + number2;
+        }
+        else if (operation == "s")
+        {
+            result = number1 - number2;
+        }
+        else if (operation == "m")
+        {
+            result = number1 * number2;
+        }
+        else if (operation == "d")
+        {
+            result = number1 / number2;
+        }
+        else
+        {
+            Console.WriteLine("Wrong input...");
+        }
+    } while (operation != "a" && operation != "s" && operation != "m" && operation != "d");
 
     Console.WriteLine("The result is " + result);
     Console.WriteLine("Would you like to do another calculation?");
